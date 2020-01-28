@@ -4,7 +4,7 @@ include Raylib
 SCREEN_WIDTH = 128
 SCREEN_HEIGHT = 128
 
-scale = 6
+scale = 3
 
 window(SCREEN_WIDTH*scale, SCREEN_HEIGHT*scale, "Sprite Test") do
   set_target_fps(30)
