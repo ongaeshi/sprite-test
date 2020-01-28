@@ -4,10 +4,10 @@ include Raylib
 SCREEN_WIDTH = 128
 SCREEN_HEIGHT = 128
 
-scale = 3
+scale = 6
 
 window(SCREEN_WIDTH*scale, SCREEN_HEIGHT*scale, "Sprite Test") do
-  set_target_fps(60)
+  set_target_fps(30)
 
   sprite = load_texture("resources/sprite.png")
   x = 0
